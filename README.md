@@ -4,7 +4,7 @@
 This project is a Docker Compose setup that demonstrates how to run an NGINX container integrated with Filebeat for log collection. Filebeat forwards logs to an Elasticsearch backend for further processing and visualization via Kibana.
 
 ## Why Elasticsearch & Filebeat?
-For this demo, I initially evaluated several logging solutions such as OpenSearch, Fluentd, and Fluent Bit. However, during testing on Windows, I encountered compatibility issues with OpenSearch (especially with Filebeat and Fluentd integrations). To avoid these hurdles and ensure a smooth demo experience, I opted for:
+For this demo, I initially evaluated several logging solutions such as OpenSearch, Fluentd, and Fluent Bit. However, during testing on Windows, I encountered compatibility issues with OpenSearch (especially with Filebeat and Fluentd integrations). That's why I opted for:
  
 - **Filebeat for Log Shipping:**  
   - It is lightweight and highly optimized for forwarding log data.
