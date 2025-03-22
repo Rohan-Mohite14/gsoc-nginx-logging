@@ -54,4 +54,4 @@ Ensure you have the following installed on your system:
 
 
 ## Conclusion
-This setup demonstrates a basic logging pipeline using NGINX and Fileba
+This setup demonstrates a basic logging pipeline using NGINX and Filebeat
