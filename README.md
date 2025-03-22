@@ -13,7 +13,7 @@ For this demo, I initially evaluated several logging solutions such as OpenSearc
   
 - **Elasticsearch for Centralized Logging:**  
   - Provides robust, centralized log storage and indexing.
-  - Seamless integration with Filebeat.
+  - Easy integration with Filebeat.
   - Offers excellent support for integrating machine learning models. This is critical for the HSF Conditions Database project, as the future ML model can analyze logs for anomaly detection, identify software bugs, and adjust system parameters dynamically.
   
 This combination was chosen specifically for the *Intelligent Log Analysis for the HSF Conditions Database* project due to:
